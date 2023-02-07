@@ -1,3 +1,31 @@
 .thumnail{
   width:300px;
 }
+.search-bar{
+  display:block;
+}
+.video-preview{
+  width: 300px;
+  display:inline-block;
+  vertical-align:top;
+  margin-right:15px;
+}
+
+.video-title{
+  margin-top:0;
+}
+
+.channel-picture{
+  display:inline-block;
+  width:50px;
+  vertical-align:top;
+}
+
+.video-info{
+  display: inline-block;
+  width: 200px;
+}
+
+.profile-picture{
+  width:100%;
+}
