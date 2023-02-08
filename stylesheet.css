@@ -16,16 +16,22 @@ p{
   margin-right:15px;
 }
 
+.video-info-grid{
+  display:grid;
+  grid-template-columns: 50px 1fr;
+}
 .channel-picture{
+  /* Previous css layout technique 
   display:inline-block;
   width:50px;
-  vertical-align:top;
+  vertical-align:top;*/
   margin-top:10px;
 }
 
 .video-info{
+  /* Previous css layout technique  
   display: inline-block;
-  width: 200px;
+  width: 200px; */
 }
 
 .video-title{
