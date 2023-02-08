@@ -1,26 +1,10 @@
-p{
-  font-family: Roboto, Arial;
-  margin-top: 0px;
-  margin-bottom: 0px;;
-}
 .thumnail{
   width:100%;
 }
-.search-bar{
-  display:block;
-}
-
 
 .video-info-grid{
   display:grid;
   grid-template-columns: 50px 1fr;
-}
-.channel-picture{
-  /* Previous css layout technique 
-  display:inline-block;
-  width:50px;
-  vertical-align:top;*/
-  margin-top:10px;
 }
 
 .video-title{
@@ -44,9 +28,9 @@ p{
   border-radius: 50px;
 }
 
-.thumnail-row{
+/* .thumnail-row{
   margin-top:12px;
-}
+} */
 
 .video-grid{
   display:grid;
