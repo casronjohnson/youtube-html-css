@@ -4,17 +4,12 @@ p{
   margin-bottom: 0px;;
 }
 .thumnail{
-  width:300px;
+  width:100%;
 }
 .search-bar{
   display:block;
 }
-.video-preview{
-  width: 300px;
-  display:inline-block;
-  vertical-align:top;
-  margin-right:15px;
-}
+
 
 .video-info-grid{
   display:grid;
@@ -26,12 +21,6 @@ p{
   width:50px;
   vertical-align:top;*/
   margin-top:10px;
-}
-
-.video-info{
-  /* Previous css layout technique  
-  display: inline-block;
-  width: 200px; */
 }
 
 .video-title{
@@ -57,4 +46,11 @@ p{
 
 .thumnail-row{
   margin-top:12px;
+}
+
+.video-grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
 }
